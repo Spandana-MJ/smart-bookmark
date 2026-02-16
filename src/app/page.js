@@ -46,7 +46,7 @@ provider:"google",
 
 options:{
 
-redirectTo:"http://localhost:3000/dashboard",
+redirectTo:`${window.location.origin}/dashboard`,
 
 queryParams: {
 
